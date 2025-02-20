@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>LoginAdmin</servlet-name>
+		<servlet-class>LoginAdmin</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginAdmin</servlet-name>
+		<url-pattern>/LoginAdmin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>LoginCustomer</servlet-name>
+		<servlet-class>LoginCustomer</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginCustomer</servlet-name>
+		<url-pattern>/LoginCustomer</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>SignUpCustomer</servlet-name>
+		<servlet-class>SignUpCustomer</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SignUpCustomer</servlet-name>
+		<url-pattern>/SignUpCustomer</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Welcome</servlet-name>
+		<servlet-class>Welcome</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Welcome</servlet-name>
+		<url-pattern>/Welcome</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>Logout</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>dummy</servlet-name>
+		<servlet-class>dummy</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>dummy</servlet-name>
+		<url-pattern>/dummy</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddingRoomDetails</servlet-name>
+		<servlet-class>AddingRoomDetails</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AddingRoomDetails</servlet-name>
+		<url-pattern>/AddingRoomDetails</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	<servlet>
+		<servlet-name>RemovingRoomDetails</servlet-name>
+		<servlet-class>RemovingRoomDetails</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RemovingRoomDetails</servlet-name>
+		<url-pattern>/RemovingRoomDetails</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdatingRoomDetails</servlet-name>
+		<servlet-class>UpdatingRoomDetails</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UpdatingRoomDetails</servlet-name>
+		<url-pattern>/UpdatingRoomDetails</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>ViewReservationDetails</servlet-name>
+		<servlet-class>ViewReservationDetails</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ViewReservationDetails</servlet-name>
+		<url-pattern>/ViewReservationDetails</url-pattern>
+	</servlet-mapping>
+
+
+	
+	
+	<servlet>
+		<servlet-name>SearchRooms</servlet-name>
+		<servlet-class>SearchRooms</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SearchRooms</servlet-name>
+		<url-pattern>/SearchRooms</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>BookRoom</servlet-name>
+		<servlet-class>BookRoom</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BookRoom</servlet-name>
+		<url-pattern>/BookRoom</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>CancelReservation</servlet-name>
+		<servlet-class>CancelReservation</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CancelReservation</servlet-name>
+		<url-pattern>/CancelReservation</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddRoomForm</servlet-name>
+		<servlet-class>AddRoomForm</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AddRoomForm</servlet-name>
+		<url-pattern>/AddRoomForm</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	<servlet>
+		<servlet-name>RemoveRoomForm</servlet-name>
+		<servlet-class>RemoveRoomForm</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RemoveRoomForm</servlet-name>
+		<url-pattern>/RemoveRoomForm</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	<servlet>
+		<servlet-name>UpdateRoomForm</servlet-name>
+		<servlet-class>UpdateRoomForm</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>UpdateRoomForm</servlet-name>
+		<url-pattern>/UpdateRoomForm</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	<servlet>
+		<servlet-name>ViewRoomsForm</servlet-name>
+		<servlet-class>ViewRoomsForm</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ViewRoomsForm</servlet-name>
+		<url-pattern>/ViewRoomsForm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>BookRoomForm</servlet-name>
+		<servlet-class>BookRoomForm</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BookRoomForm</servlet-name>
+		<url-pattern>/BookRoomForm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>CancelReservationForm</servlet-name>
+		<servlet-class>CancelReservationForm</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>CancelReservationForm</servlet-name>
+		<url-pattern>/CancelReservationForm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SearchRoomsForm</servlet-name>
+		<servlet-class>SearchRoomsForm</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SearchRoomsForm</servlet-name>
+		<url-pattern>/SearchRoomsForm</url-pattern>
+	</servlet-mapping>
+	
+
+</web-app>
